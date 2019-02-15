@@ -7,7 +7,7 @@ option(Boost_USE_STATIC_LIBS "Use Boost static version" ON)
 set(MAJOR 1)
 set(MINOR 6)
 set(PATCH 0)
-12
+
 if(NOT CMAKE_BUILD_TYPE )
 MESSAGE(STATUS "not define build type, set to release" )
 set(CMAKE_BUILD_TYPE Release )
